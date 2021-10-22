@@ -2,4 +2,4 @@
 
 RMSE on online evaluation :
 
-*FD001 : 20.88
+* FD001 : 20.88
