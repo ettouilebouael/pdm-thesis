@@ -1,6 +1,6 @@
 # pdm-thesis
 
-RMSE on online evaluation :
+RMSE on this work for online evaluation :
 
 * FD001 : 20.88
 
