@@ -1,5 +1,4 @@
 # pdm-thesis
-Next Steps :
-* Implement Eealy stopping
-* Add scoring function
-* Automaticaly save Best Model
+
+RMSE on online evaluation :
+FD001 : 20.88
