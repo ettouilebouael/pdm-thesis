@@ -40,7 +40,7 @@ class RULPredictor(torch.nn.Module):
     x = self.output(x)
     return x
   
-  class Discriminator(torch.nn.Module):
+class Discriminator(torch.nn.Module):
 
 
   def __init__(self, n_hidden_lstm,dropout):
