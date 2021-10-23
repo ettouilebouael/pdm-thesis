@@ -2,7 +2,11 @@ from torch.utils.data import Dataset, DataLoader
 import torch
 from livelossplot import PlotLosses
 import numpy as np
+
+
 class TurboFanDataset(Dataset):
+  
+  
   def __init__(self, X, y):
     self.X, self.y = X, y
     
@@ -12,6 +16,7 @@ class TurboFanDataset(Dataset):
   def __getitem__(self, ix):
     return torch.from_numpy(self.X[ix,:,:]).float() , torch.from_numpy(np.array(self.y[ix])).float()
 
+  
 def fit(encoder, rul_predictor, dataloader, epochs, learning_rate, data_num):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     liveloss = PlotLosses()
