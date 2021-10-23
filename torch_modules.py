@@ -18,6 +18,7 @@ class TurboFanDataset(Dataset):
 
   
 def fit(encoder, rul_predictor, dataloader, epochs, learning_rate, data_num):
+  
     device = "cuda" if torch.cuda.is_available() else "cpu"
     liveloss = PlotLosses()
     encoder.to(device)
