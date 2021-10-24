@@ -4,7 +4,7 @@ RMSE on this work for online evaluation :
 
 * FD001 : 18.32
 * FD002 : 16.68
-* FD003 : 20.19
+* FD003 : 20.00
 * FD004 : 21.75
 
 RMSE on state of the art [1]:
