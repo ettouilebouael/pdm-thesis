@@ -39,4 +39,3 @@ class RULPredictor(torch.nn.Module):
     x - self.dropout(x)
     x = self.output(x)
     return x
-  
